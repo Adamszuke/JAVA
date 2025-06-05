@@ -32,5 +32,25 @@ public class Aula1EX {
             System.out.println(num2 + " é maior do que " + num1);
         }
 
+        System.out.println("Atividade 3");
+
+        System.out.println("Digite sua nota: ");
+        float nota = scanner.nextInt();
+        if(nota > 8.9){
+            System.out.println("Sua nota é A");
+        }
+        else if(nota < 8.9 && nota > 7){
+            System.out.println("Sua nota é B");
+        }
+        else if (nota < 7 && nota > 5){
+            System.out.println("Sua nota é C");
+        }
+        else if (nota < 5 && nota > 3){
+            System.out.println("Sua nota é D");
+        }
+        else{
+            System.out.println("Sua nota é F");
+        }
+
     }
 }
