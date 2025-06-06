@@ -52,5 +52,56 @@ public class Aula1EX {
             System.out.println("Sua nota é F");
         }
 
+        System.out.println("Atividade 4");
+
+        System.out.println("Digite um número: ");
+        num1 = scanner.nextInt();
+        System.out.println("Digite outro número: ");
+        num2 = scanner.nextInt();
+        System.out.println("Escolha uma operação, digite: \n+ para adição \n- para subtração \n* para múltiplicação \n/ para divisão");
+        char op = scanner.next().charAt(0); 
+
+        if (op == '+')
+        {
+            System.out.println(num1 + num2);
+        }
+        else if (op == '-')
+        {
+            System.out.println(num1-num2);
+        }
+        else if (op == '*')
+        {
+            System.out.println(num1*num2);
+        }
+        else if (op == '/')
+        {
+            System.out.println(num1/num2);
+        }
+        
+        System.out.println("Atividade 5");
+
+        System.out.println("Informe seu peso em Kg: (Use vírgula)");
+        double peso = scanner.nextFloat();
+        System.out.println("Informe sua aultura em metros: (Use vírgula)");
+        double alt = scanner.nextFloat();
+
+        double imc = peso / (alt*alt);
+        if (imc < 18.5)
+        {
+            System.out.println("Você está abaixo do peso");
+        }
+        else if (imc <= 25)
+        {
+            System.out.println("Você está no peso normal");
+        }
+        else if (imc >= 25 && imc < 30)
+        {
+            System.out.println("Você está com sobrepeso");
+        }
+        else 
+        {
+            System.out.println("Você está com obesidade");
+        }
+
     }
 }
