@@ -1,3 +1,4 @@
+package Ex;
 import java.util.Scanner;
 public class Aula1EX {
     

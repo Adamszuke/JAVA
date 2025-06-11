@@ -1,3 +1,4 @@
+package Ex;
 import java.util.Scanner;
 public class Aula2Ex {
     public static void main(String[] args) {
@@ -79,8 +80,7 @@ public class Aula2Ex {
 
         System.out.println("Atividade 6");
 
-        System.out.println("Digite um número");
-        int num4 = scanner.nextInt();
+        int num4;
 
         do {
             System.out.println("Digite um número");
@@ -89,11 +89,57 @@ public class Aula2Ex {
 
         System.out.println("Atividade 7");
         
+        
         for (n = 1; n <= 10; n++)
         {
             System.out.println(n * 2);
         }
+
+        System.out.println("Atividade 8");
+
+        int num5 = scanner.nextInt();
+        n = 1;
+        int fatorial = 1;
+
+        while (n < num5) {
+            fatorial = fatorial + (fatorial * (num5 - 1));
+            num5 --;
+            System.out.println(fatorial);
+        }
+
+        System.out.println("Atividade 9");
+
+        String pas;
+
+        do {
+            System.out.println("Digite sua senha: ");
+            pas = scanner.nextLine();
+
+            if (!pas.equals("123456")) {
+                System.out.println("Senha incorreta, digite novamente");
+            }
+
+        } while (!pas.equals("123456"));
+
+        System.out.println("Senha correta");
+
+        System.out.println("Atividade 10");
+        int linhas = 5;
+
+        for (int i = 1; i <= linhas; i++) {
+            for (int j = 1; j <= linhas - i; j++) {
+                System.out.print(" ");
+            }
+
+            for (int k = 1; k <= (2 * i - 1); k++) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
         
+
+
         
     }
 }
