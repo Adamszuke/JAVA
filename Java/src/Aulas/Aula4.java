@@ -12,7 +12,7 @@ public class Aula4{
 
         precos[0] = 50.00;
         precos[1] = 100.00;
-        precos[2] = 
+        precos[2] = 200;
 
     }
 }
