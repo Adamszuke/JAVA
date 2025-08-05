@@ -1,4 +1,3 @@
-package Aulas;
 import java.util.Scanner;
 public class Aula1{
     // Atalho = PSVM
