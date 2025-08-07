@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class aula1 {
     public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         Triangulo x, y;
         x = new Triangulo();
         y = new Triangulo();
@@ -25,6 +25,8 @@ public class aula1 {
         y.C = sc.nextDouble();
 
         System.out.println("Area Y = " + y.calcularArea());
+
+        sc.close();
     }
 
 
