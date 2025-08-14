@@ -1,4 +1,4 @@
-package Aula2;
+package BI3.EX.Aula2;
 
 public class funcionario {
     public String nome;

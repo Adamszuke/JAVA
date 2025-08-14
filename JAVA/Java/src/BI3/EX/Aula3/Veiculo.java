@@ -4,16 +4,24 @@ public class Veiculo {
     public String marca;
     public String modelo;
     public double velocidadeAtual;
+    public double acelerar;
+    public double frear;
 
-    public double acelerar(double acelerar){
-        return velocidadeAtual + acelerar;
+    public void acelerar(double acelerar){
+        velocidadeAtual += acelerar;
+        
     }
 
-    public double frear(double frear){
-        return velocidadeAtual - frear;
+    public void frear(double frear){
+        
+        if (frear > velocidadeAtual){
+            velocidadeAtual = 0;
+        } else{
+            velocidadeAtual -= frear;
+        }
     }
 
-    public double parar(){
-        return velocidadeAtual = 0;
+    public void parar(double velocidadeAtual){
+        velocidadeAtual = 0;
     }
 }

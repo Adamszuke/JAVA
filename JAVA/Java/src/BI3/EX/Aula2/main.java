@@ -1,4 +1,4 @@
-package Aula2;
+package BI3.EX.Aula2;
 import java.util.Scanner;
 
 public class main {
