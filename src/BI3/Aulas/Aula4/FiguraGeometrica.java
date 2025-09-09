@@ -1,0 +1,17 @@
+package BI3.Aulas.Aula4;
+
+public class FiguraGeometrica {
+    public double raio;
+
+    public double circunferencia(){
+        return 2.0 * pi() *raio;
+    }
+
+    public double volume(){
+        return (3.0 / 4.0) * pi() * Math.pow(raio,3);
+    }
+
+    public double pi(){
+        return Math.PI;
+    }
+}
