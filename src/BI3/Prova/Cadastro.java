@@ -1,4 +1,4 @@
-package src.BI3.Prova;
+package BI3.Prova;
 
 public class Cadastro {
     private String nome;

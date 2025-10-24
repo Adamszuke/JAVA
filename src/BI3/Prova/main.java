@@ -1,4 +1,4 @@
-package src.BI3.Prova;
+package BI3.Prova;
 import java.util.Scanner;
 
 public class main {
